@@ -1,0 +1,41 @@
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #fff; 
+    border-left: 1px solid #B1372A;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #B1372A; 
+  	margin-left: 1px;
+  	margin-right: 1px;
+} 
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #B1372A; 
+}
+
+  @font-face {
+    	font-family: titlesFont;
+    	src: url("oldAnticBold.ttf");
+    }
+    
+    @font-face {
+    	font-family: textFont;
+    	src: url("Monadi.ttf");
+    }
+
+    .textFont {
+     font-family:textFont; 
+    }
+	
+	.titleFont {
+     font-family:titlesFont; 
+    }
+    
