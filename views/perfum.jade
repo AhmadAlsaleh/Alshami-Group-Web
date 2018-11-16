@@ -1,0 +1,737 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    title العطر الشامي - بوابتك للرفاهية
+    meta(content='width=device-width, initial-scale=1.0', name='viewport')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js')
+    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js')
+    style.
+      @font-face {
+      font-family: titlesFont;
+      src: url("/perfum/oldAnticBold.ttf");
+      }
+      @font-face {
+      font-family: textFont;
+      src: url("/perfum/Monadi.ttf");
+      }
+      .textFont {
+      font-family:textFont;
+      }
+      #allCollectionLink:hover {
+      cursor: pointer;
+      color: #B1372A;
+      }
+      #allCollectionLink {
+      color: #000;
+      }
+    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js')
+    // Favicons
+    link(href='/perfum/img/favicon.png', rel='icon')
+    // Google Fonts
+    link(href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700|Raleway:300,400,400i,500,500i,700,800,900', rel='stylesheet')
+    // Bootstrap CSS File
+    link(href='/perfume/lib/bootstrap/css/bootstrap.min.css', rel='stylesheet')
+    // Libraries CSS Files
+    link(href='/perfume/lib/nivo-slider/css/nivo-slider.css', rel='stylesheet')
+    link(href='/perfume/lib/owlcarousel/owl.carousel.css', rel='stylesheet')
+    link(href='/perfume/lib/owlcarousel/owl.transitions.css', rel='stylesheet')
+    link(href='/perfume/lib/font-awesome/css/font-awesome.min.css', rel='stylesheet')
+    link(href='/perfume/lib/animate/animate.min.css', rel='stylesheet')
+    link(href='/perfume/lib/venobox/venobox.css', rel='stylesheet')
+    // Nivo Slider Theme
+    link(href='/perfume/css/nivo-slider-theme.css', rel='stylesheet')
+    // Main Stylesheet File
+    link(href='/perfume/css/style.css', rel='stylesheet')
+    // Responsive Stylesheet File
+    link(href='/perfume/css/responsive.css', rel='stylesheet')
+    style.
+      /* width */
+      ::-webkit-scrollbar {
+      width: 8px;
+      }
+      /* Track */
+      ::-webkit-scrollbar-track {
+      background: #fff;
+      border-left: 1px solid #B1372A;
+      }
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+      background: #B1372A;
+      margin-left: 1px;
+      margin-right: 1px;
+      }
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+      background: #B1372A;
+      }
+  body.textFont(data-spy='scroll', data-target='#navbar-example', dir='auto')
+    #preloader
+    header
+      // header-area start
+      #sticker.header-area
+        .container
+          .row
+            .col-md-12.col-sm-12
+              // Navigation
+              nav.navbar.navbar-default
+                // Brand and toggle get grouped for better mobile display
+                .navbar-header
+                  button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='.bs-example-navbar-collapse-1', aria-expanded='false')
+                    span.sr-only Toggle navigation
+                    span.icon-bar
+                    span.icon-bar
+                    span.icon-bar
+                  // Brand
+                  a.navbar-brand.page-scroll.sticky-logo(href='#home')
+                    h1(style='color: #fff;')
+                      span(style='font-family: titlesFont; color: #fff;') العطر الشامي         
+                      span.textFont(style='font-size: 18px; color: #fff;') بوابتك للرفاهية
+                    // Uncomment below if you prefer to use an image logo
+                    // Collect the nav links, forms, and other content for toggling
+                    #navbar-example.collapse.navbar-collapse.main-menu.bs-example-navbar-collapse-1
+                      ul.nav.navbar-nav.navbar-right
+                        //
+                          <li class="active">
+                          <a class="page-scroll" href="#home" style="font-size: 18px;">الرئيسية</a>
+                          </li>
+                        li
+                          a.page-scroll(href='#about', style='font-size: 18px;') عن الشركة
+                        li
+                          a.page-scroll(href='#services', style='font-size: 18px;') خدماتنا
+                        li
+                          a.page-scroll(href='#portfolio', style='font-size: 18px;') وصل حديثاً
+                        li
+                          a.page-scroll(href='#', style='font-size: 18px;') مجموعتنا
+                        li
+                          a.page-scroll(href='#shopsMap', style='font-size: 18px;') تواصل معنا
+                        li
+                          a.page-scroll(href='#', style='font-size: 18px;') English
+                    // navbar-collapse
+                    // END: Navigation
+                    // header-area end
+                    // header end
+                    // Start Slider Area
+                    #home.slider-area
+                      .bend.niceties.preview-2
+                        #ensign-nivoslider.slides
+                          img(src='/perfume/img/slider/slider1.jpg', alt='', title='#slider-direction-1')
+                          img(src='/perfume/img/slider/slider2.jpg', alt='', title='#slider-direction-2')
+                          img(src='/perfume/img/slider/slider3.jpg', alt='', title='#slider-direction-3')
+                        // direction 1
+                        #slider-direction-1.slider-direction.slider-one
+                          .container
+                            .row
+                              .col-md-12.col-sm-12.col-xs-12
+                                .slider-content
+                                  // layer 1
+                                  .layer-1-1.hidden-xs.wow.slideInDown(data-wow-duration='2s', data-wow-delay='.2s')
+                                    h2.title1.textFont بوابتك للرفاهية
+                                  // layer 2
+                                  .layer-1-2.wow.slideInUp(data-wow-duration='2s', data-wow-delay='.1s')
+                                    h1.title2.textFont
+                                      | من عراقة الأحياء الدمشقية وعبق الياسمين
+                                  // layer 3
+                                  .layer-1-3.hidden-xs.wow.slideInUp(data-wow-duration='2s', data-wow-delay='.2s')
+                                    a.ready-btn.right-btn.page-scroll.textFont(href='#about') عن العطر الشامي
+                        // direction 2
+                        #slider-direction-2.slider-direction.slider-two
+                          .container
+                            .row
+                              .col-md-12.col-sm-12.col-xs-12
+                                .slider-content.text-center
+                                  // layer 1
+                                  .layer-1-1.hidden-xs.wow.slideInUp(data-wow-duration='2s', data-wow-delay='.2s')
+                                    h2.title1.textFont
+                                      | الجودة ، الثقة ، الانتشار
+                                  // layer 2
+                                  .layer-1-2.wow.slideInUp(data-wow-duration='2s', data-wow-delay='.1s')
+                                    h1.title2.textFont
+                                      | نقدم أجود أنواع العطور عبر سلسلة 
+                                      br
+                                      |                     تنتشر من دمشق إلى الساحل السوري ثم المدن التركية
+                                  // layer 3
+                                  .layer-1-3.hidden-xs.wow.slideInUp(data-wow-duration='2s', data-wow-delay='.2s')
+                                    a.ready-btn.page-scroll.textFont(href='#shopsMap') تفضل بالتواصل معنا وزيارتنا
+                        // direction 3
+                        #slider-direction-3.slider-direction.slider-two
+                          .container
+                            .row
+                              .col-md-12.col-sm-12.col-xs-12
+                                .slider-content
+                                  // layer 1
+                                  .layer-1-1.hidden-xs.wow.slideInUp(data-wow-duration='2s', data-wow-delay='.2s')
+                                    h2.title1.textFont
+                                      | الفرنسية MANE الأصناف العالمية من مصانع
+                                  // layer 2
+                                  .layer-1-2.wow.slideInUp(data-wow-duration='2s', data-wow-delay='.1s')
+                                    h1.title2.textFont
+                                      | قم بتجربة الأصناف العالمية الجديدة
+                                      br
+                                      |                      الرجالية والنسائية
+                                  // layer 3
+                                  .layer-1-3.hidden-xs.wow.slideInUp(data-wow-duration='2s', data-wow-delay='.2s')
+                                    a.ready-btn.right-btn.page-scroll.textFont(href='#portfolio') الأصناف الجديدة
+                    // End Slider Area
+                    // Start About area
+                    #about.about-area(style='padding-top: 50px; padding-bottom: 50px;')
+                      .container
+                        .row
+                          .col-md-12.col-sm-12.col-xs-12
+                            .section-headline.text-center
+                              h2(style='color: #B1372A; font-family: titlesFont;') عن العطر الشامي
+                        .row(style='height: 520px;')
+                          .col-md-6.col-sm-6.col-xs-12
+                            .well-middle
+                              .single-well
+                                #accordion.panel-group
+                                  .panel.panel-default
+                                    .panel-heading
+                                      h4.panel-title(style='text-align: right;')
+                                        a#coll1.textFont(data-toggle='collapse', data-parent='#accordion', href='#collapse1', style='font-size: 20px; text-decoration: none; text-align: right;') التأسيس والنشأة
+                                    #collapse1.panel-collapse.collapse.in
+                                      .panel-body
+                                        p(style='font-size: 17px; text-align: center; line-height: 1.6;')
+                                          | تأسس العطر الشامي في عام 2002 من قبل عمر طالب
+                                          br
+                                          |             عندما افتتح أول متجر للعطور في منطقة ساروجة التاريخية
+                                          br
+                                          | دمشق ، سورية
+                                  .panel.panel-default
+                                    .panel-heading
+                                      h4.panel-title(style='text-align: right;')
+                                        a#coll2.textFont(data-toggle='collapse', data-parent='#accordion', href='#collapse2', style='font-size: 20px; text-decoration: none; text-align: right;') رؤيتنا
+                                    #collapse2.panel-collapse.collapse
+                                      .panel-body
+                                        p(style='font-size: 17px; text-align: center; line-height: 1.6;')
+                                          | يهدف العطر الشامي إلى أن يكون علامة تجارية رائدة ومعروفة في مجال تجارة الزيوت العطرية
+                                        hr
+                                        p(style='font-size: 17px; text-align: center; line-height: 1.6;')
+                                          | يهدف العطر الشامي ﻷن يكون في صدارة سوق الزيوت العطرية كتاجر تجزئة وجملة معاً
+                                        hr
+                                        p(style='font-size: 17px; text-align: center; line-height: 1.6;')
+                                          | يهدف
+                                          | العطر الشامي إلى أن يكون جزء من نمط وأسلوب حياة العملاء
+                                        hr
+                                        p(style='font-size: 17px; text-align: center; line-height: 1.6;') يهدف العطر الشامي إلى أن يكون الوجهة الأهم للعطور الفاخرة
+                                  .panel.panel-default
+                                    .panel-heading
+                                      h4.panel-title(style='text-align: right;')
+                                        a#coll3.textFont(data-toggle='collapse', data-parent='#accordion', href='#collapse3', style='font-size: 20px; text-decoration: none; text-align: right;') رسالتنا
+                                    #collapse3.panel-collapse.collapse
+                                      .panel-body
+                                        br
+                                        p(style='font-size: 17px; text-align: center; line-height: 1.6;') الالتزام بالحفاظ على مستوى عالٍ من النزاهة وأخلاقيات العمل
+                                        br
+                          // End col
+                          // single-well start
+                          .col-md-6.col-sm-6.col-xs-12
+                            .well-left
+                              .single-well(style='position: relative; height: 520px;')
+                                img#aboutIMG1(src='/perfume/img/background/aboutBG2.jpg', alt='', style='height: 520px; width: 100%; object-fit:cover; box-shadow: 3px 3px 15px #aaaaaa; position: absolute;')
+                                img#aboutIMG2(src='/perfume/img/background/aboutBG3.jpg', alt='', style='height: 520px; width: 100%; object-fit:cover; box-shadow: 3px 3px 15px #aaaaaa; display: none; position: absolute;')
+                                img#aboutIMG3(src='/perfume/img/background/aboutBG4.jpg', alt='', style='height: 520px; width: 100%; object-fit:cover; box-shadow: 3px 3px 15px #aaaaaa; display: none; position: absolute;')
+                          // single-well end
+                          script.
+                            function fadeOutALL() {
+                            $(document).ready(function(){
+                            $("#aboutIMG1").fadeOut();
+                            $("#aboutIMG2").fadeOut();
+                            $("#aboutIMG3").fadeOut();
+                            });
+                            }
+                            $(document).ready(function(){
+                            $("#coll1").click(function(){
+                            fadeOutALL();
+                            $("#aboutIMG1").fadeIn();
+                            });
+                            $("#coll2").click(function(){
+                            fadeOutALL();
+                            $("#aboutIMG2").fadeIn();
+                            });
+                            $("#coll3").click(function(){
+                            fadeOutALL();
+                            $("#aboutIMG3").fadeIn();
+                            });
+                            });
+                    // End About area
+                    // Start Testimonials
+                    div(style="background-image: url('/perfume/img/background/aboutBG1.jpg');\
+                    background-attachment: fixed;\
+                    background-size: cover;\
+                    ")
+                      .testi-inner.area-padding
+                        .testi-overly
+                        .container
+                          .row
+                            .col-md-4.col-sm-4.col-xs-12(style='padding-top: 0px;padding-bottom: 25px')
+                              img(src='./img/background/whyHead.png', style='-webkit-transform: rotate(-30deg);\
+                              /* Firefox */-moz-transform: rotate(-30deg);\
+                              /* IE */-ms-transform: rotate(-30deg);\
+                              /* Opera */-o-transform: rotate(-30deg);')
+                              h2(style='color: #fff;\
+                              font-family: titlesFont;\
+                              text-align: center;\
+                              text-shadow: 2px 2px 4px #dfdfdf;\
+                              margin 0 auto;\
+                              -webkit-transform: rotate(-30deg);\
+                              /* Firefox */-moz-transform: rotate(-30deg);\
+                              /* IE */-ms-transform: rotate(-30deg);\
+                              /* Opera */-o-transform: rotate(-30deg);')
+                                | لماذا نختار العطر الشامي؟
+                            .col-md-8.col-sm-8.col-xs-12(style='color: #fff;')
+                              p(style='color: #fff; font-size: 17px; text-align: right; line-height: 1.6;') ﻷنه علامة تجارية جديرة بالثقة
+                              p(style='color: #fff; font-size: 17px; text-align: right; line-height: 1.6;') تقديم أفضل نوعية ممكنة لزيوت العطور الفاخرة
+                              p(style='color: #fff; font-size: 17px; text-align: right; line-height: 1.6;')
+                                | تقديم عدد كبير من أهم العلامات التجارية المرموقة بالإضافة إلى مجموعة زيوت العود العربي الضخمة التي تربط أصالة الماضي بالحاضر
+                              p(style='color: #fff; font-size: 17px; text-align: right; line-height: 1.6;') نحن نعتبر عملاءنا هم شركاء النجاح لشركتنا
+                              p(style='color: #fff; font-size: 17px; text-align: right; line-height: 1.6;') أعضاء فريقنا في أعلى مستويات التدريب وهم في غاية الحماس لمساعدة العملاء
+                              p(style='color: #fff; font-size: 17px; text-align: right; line-height: 1.6;') سوف يشرح أعضاء فريقنا كل ما يتعلق بميزات وخصائص العطور لما يناسب أهم المناسبات
+                              p(style='color: #fff; font-size: 17px; text-align: right; line-height: 1.6;') نرحب بأي شكوى أو مشكلة تواجه عملائنا ونعتبرها بمثابة نقطة تطوير لدينا
+                    // End Testimonials
+                    // Start Service area
+                    #services.services-area.area-padding
+                      .container
+                        .row
+                          .col-md-12.col-sm-12.col-xs-12
+                            .section-headline.services-head.text-center
+                              h2(style='color: #B1372A; font-family: titlesFont;') خدماتنا
+                        .row.text-center
+                          .services-contents
+                            // Start Left services
+                            .col-md-4.col-sm-4.col-xs-12
+                              .about-move
+                                .services-details
+                                  .single-services
+                                    h4.textFont عطورات بجودة عالمية
+                                    p.textFont
+                                      | من أجود أنواع الزيوت العطرية وأعرق المصانع الفرنسية تصل إليكم زبائننا الكرام
+                                    img(src='img/about/5.jpg', style=' width: 200px; height: 200px;\
+                                    border-radius: 50%;\
+                                    border-color: #B1372A; border-width: 1px; border-style: solid\
+                                    ')
+                                // end about-details
+                            .col-md-4.col-sm-4.col-xs-12
+                              .about-move
+                                .services-details
+                                  .single-services
+                                    h4.textFont أحجام مختلفة للعبوات
+                                    p.textFont
+                                      | اختر عطرك المفضل وحدد السعر المناسب لك وبنفس التركيز العالمي بأحجام مختلفة
+                                    img(src='img/about/7.jpg', style=' width: 200px; height: 200px;\
+                                    border-radius: 50%;\
+                                    border-color: #B1372A; border-width: 1px; border-style: solid\
+                                    ')
+                                // end about-details
+                            .col-md-4.col-sm-4.col-xs-12
+                              // end col-md-4
+                              .about-move
+                                .services-details
+                                  .single-services
+                                    h4.textFont تلبية طلبات جملة
+                                    p.textFont
+                                      | بيع الزيوت العطرية للمحلات التجارية حسب الطلب
+                                      br
+                                      | MANE من إنتاج الشركة الفرنسية الرائدة
+                                    img(src='img/about/3.jpg', style=' width: 200px; height: 200px;\
+                                    border-radius: 50%;\
+                                    border-color: #B1372A; border-width: 1px; border-style: solid\
+                                    ')
+                                // end about-details
+                                // End Service area
+                                #shopsMap.container(style="background-color: #dfdfdf;\
+                                padding: 5%; background-image: url('img/background/bg11.jpg');\
+                                height: 700px; width: 100%;\
+                                background-repeat: no-repeat; background-size: cover;")
+                                  h1(style='color: #B1372A; font-family: titlesFont;') تواصل معنا وتفضل بزيارتنا
+                                  p اضغط على مكان الفرع للحصول على المعلومات
+                                  .row
+                                    .col-xs-12.col-sm-4(style='background-color: rgba(177, 55, 42, 255); margin-bottom: 5px; border-radius: 20px; text-align: center; padding-top: 5px;')
+                                      i.fa.fa-angle-left(style='font-size:18px; color: #fff; float: left; cursor: pointer; padding-left: 10px; padding-right: 10px;', onclick='showPrev()')
+                                      span#shopNum(style='font-size: 18px; color: #fff; cursor: pointer;', onclick='showInfoShop()') الفرع الأول
+                                      i.fa.fa-angle-right(style='font-size:18px; color: #fff; float: right; cursor: pointer;  padding-left: 10px; padding-right: 10px;', onclick='showNext()')
+                                    .col-xs-12.col-sm-8
+                                      h6.textFont(style='color: #B1372A;') زوروا فرعنا الجديد - حماة - الدباغة
+                                  .row
+                                    #map.col-xs-12(style='height:400px;\
+                                    box-shadow: 3px 3px 15px #aaaaaa;')
+                                  script.
+                                    var text = '{"shops":[' +
+                                    '{"number":"الفرع الأول","image":"sarouja.jpg","lat":"33.509432", "lon": "36.300698", "address":"دمشق - الحريقة - مقابل جامع الدرويشية", "phone":"+963 11 2214064, 0933286077", "time":"من الساعة 9 صباحاً حتى 10 مساءً" },' +
+                                    '{"number":"الفرع الثاني","image":"sarouja.jpg","lat":"33.515763", "lon": "36.298432", "address":"دمشق - سوق ساروجة - جانب جامع الورد", "phone":"+963 11 2321967", "time":""}, ' +
+                                    '{"number":"الفرع الثالث","image":"sarouja.jpg","lat":"33.516622", "lon": "33.516622", "address":"دمشق - سوق ساروجة", "phone":"+963 11 2321343", "time":"" }, ' +
+                                    '{"number":"الفرع الرابع","image":"sarouja.jpg","lat":"33.486303", "lon": "36.287705", "address":"دمشق - نهر عيشة - سوق عاصم", "phone":"+963 11 8883165","time":"" }, ' +
+                                    '{"number":"الفرع الخامس","image":"sarouja.jpg","lat":"35.518540", "lon": "35.776801", "address":"اللاذقية - تقاطع سوق الصاغة مع شارع هنانو", "phone":"+963 41 486385" ,"time":""}, ' +
+                                    '{"number":"الفرع السادس","image":"sarouja.jpg","lat":"35.523795", "lon": "35.777956", "address":"اللاذقية - شارع أنطاكيا - مقابل المؤسسة الاستهلاكية", "phone":"+963 41 233636","time":"" }, ' +
+                                    '{"number":"الفرع السابع","image":"sarouja.jpg","lat":"35.598767", "lon": "36.031665", "address":"اللاذقية - الحفة - مقابل مطعم لوكوك", "phone":"+963 41 732104","time":"" }, ' +
+                                    '{"number":"الفرع الثامن","image":"sarouja.jpg","lat":"35.520173", "lon": "35.776828", "address":"اللاذقية - هنانو - جانب بوظة جعارة", "phone":"+963 41 494837","time":"" }, ' +
+                                    '{"number":"الفرع التاسع","image":"sarouja.jpg","lat":"35.130988", "lon": "36.750807", "address":"حماة - الدباغة - مقابل السوق الطويل", "phone":"+963","time":"" }' +
+                                    ']}';
+                                    var map, shop1C, shop1M,shop2C, shop2M,shop3C, shop3M,shop4C, shop4M,shop5C, shop5M,shop6C, shop6M,shop7C, shop7M,shop8C, shop8M, shop9C, shop9M;
+                                    var current = 0;
+                                    var obj = JSON.parse(text);
+                                    function showPrev() {
+                                    map.setZoom(18);
+                                    if (current > 0) {
+                                    current = current - 1;
+                                    document.getElementById("shopNum").innerHTML = obj.shops[current].number;
+                                    }
+                                    switch (current) {
+                                    case 0:
+                                    map.setCenter(shop1C);
+                                    break;
+                                    case 1:
+                                    map.setCenter(shop2C);
+                                    break;
+                                    case 2:
+                                    map.setCenter(shop3C);
+                                    break;
+                                    case 3:
+                                    map.setCenter(shop4C);
+                                    break;
+                                    case 4:
+                                    map.setCenter(shop5C);
+                                    break;
+                                    case 5:
+                                    map.setCenter(shop6C);
+                                    break;
+                                    case 6:
+                                    map.setCenter(shop7C);
+                                    break;
+                                    case 7:
+                                    map.setCenter(shop8C);
+                                    break;
+                                    case 8:
+                                    map.setCenter(shop9C);
+                                    break;
+                                    }
+                                    }
+                                    function showInfoShop() {
+                                    setModalData(current);
+                                    $("#myModal").modal();
+                                    }
+                                    function showNext() {
+                                    map.setZoom(18);
+                                    if (current != 8) {
+                                    current = current + 1;
+                                    document.getElementById("shopNum").innerHTML = obj.shops[current].number;
+                                    }
+                                    switch (current) {
+                                    case 0:
+                                    map.setCenter(shop1C);
+                                    break;
+                                    case 1:
+                                    map.setCenter(shop2C);
+                                    break;
+                                    case 2:
+                                    map.setCenter(shop3C);
+                                    break;
+                                    case 3:
+                                    map.setCenter(shop4C);
+                                    break;
+                                    case 4:
+                                    map.setCenter(shop5C);
+                                    break;
+                                    case 5:
+                                    map.setCenter(shop6C);
+                                    break;
+                                    case 6:
+                                    map.setCenter(shop7C);
+                                    break;
+                                    case 7:
+                                    map.setCenter(shop8C);
+                                    break;
+                                    case 8:
+                                    map.setCenter(shop9C);
+                                    break;
+                                    }
+                                    }
+                                    var imgRoot = "./img/shops/";
+                                    function setModalData(currentShop) {
+                                    document.getElementById("modalImage").src = imgRoot + (currentShop+1) +".jpg";
+                                    document.getElementById("modalAddress").innerHTML = obj.shops[currentShop].address;
+                                    document.getElementById("modalPhone").innerHTML = obj.shops[currentShop].phone;
+                                    document.getElementById("modalTime").innerHTML = obj.shops[currentShop].time;
+                                    }
+                                    function myMap() {
+                                    shop1C = new google.maps.LatLng(33.509432, 36.300698);
+                                    shop1M = new google.maps.Marker({position:shop1C});
+                                    shop2C = new google.maps.LatLng(33.515763, 36.298432);
+                                    shop2M = new google.maps.Marker({position:shop2C});
+                                    shop3C = new google.maps.LatLng(33.516626, 36.299728);
+                                    shop3M = new google.maps.Marker({position:shop3C});
+                                    shop4C = new google.maps.LatLng(33.486303, 36.287705);
+                                    shop4M = new google.maps.Marker({position:shop4C});
+                                    shop5C = new google.maps.LatLng(35.518540, 35.776801);
+                                    shop5M = new google.maps.Marker({position:shop5C});
+                                    shop6C = new google.maps.LatLng(35.523795, 35.777956);
+                                    shop6M = new google.maps.Marker({position:shop6C});
+                                    shop7C = new google.maps.LatLng(35.598880, 36.031795);
+                                    shop7M = new google.maps.Marker({position:shop7C});
+                                    shop8C = new google.maps.LatLng(35.520200, 35.776989);
+                                    shop8M = new google.maps.Marker({position:shop8C});
+                                    shop9C = new google.maps.LatLng(35.130988, 36.750807);
+                                    shop9M = new google.maps.Marker({position:shop9C});
+                                    var mapCanvas = document.getElementById("map");
+                                    var mapOptions = {
+                                    center: shop1C, zoom: 18,
+                                    panControl: true,
+                                    zoomControl: true,
+                                    mapTypeControl: true,
+                                    scaleControl: true,
+                                    streetViewControl: true,
+                                    overviewMapControl: true,
+                                    rotateControl: true
+                                    };
+                                    map = new google.maps.Map(mapCanvas, mapOptions);
+                                    shop1M.setMap(map);
+                                    shop2M.setMap(map);
+                                    shop3M.setMap(map);
+                                    shop4M.setMap(map);
+                                    shop5M.setMap(map);
+                                    shop6M.setMap(map);
+                                    shop7M.setMap(map);
+                                    shop8M.setMap(map);
+                                    shop9M.setMap(map);
+                                    google.maps.event.addListener(shop1M,'click',function() {
+                                    setModalData(0);
+                                    $("#myModal").modal();
+                                    });
+                                    google.maps.event.addListener(shop2M,'click',function() {
+                                    setModalData(1);
+                                    $("#myModal").modal();
+                                    });
+                                    google.maps.event.addListener(shop3M,'click',function() {
+                                    setModalData(2);
+                                    $("#myModal").modal();
+                                    });
+                                    google.maps.event.addListener(shop4M,'click',function() {
+                                    setModalData(3);
+                                    $("#myModal").modal();
+                                    });
+                                    google.maps.event.addListener(shop5M,'click',function() {
+                                    setModalData(4);
+                                    $("#myModal").modal();
+                                    });
+                                    google.maps.event.addListener(shop6M,'click',function() {
+                                    setModalData(5);
+                                    $("#myModal").modal();
+                                    });
+                                    google.maps.event.addListener(shop7M,'click',function() {
+                                    setModalData(6);
+                                    $("#myModal").modal();
+                                    });
+                                    google.maps.event.addListener(shop8M,'click',function() {
+                                    setModalData(7);
+                                    $("#myModal").modal();
+                                    });
+                                    google.maps.event.addListener(shop9M,'click',function() {
+                                    setModalData(8);
+                                    $("#myModal").modal();
+                                    });
+                                    }
+                                  // <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+                                  script(src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBkgkIGyZDuUBBCwsq0aIuGoO8AUv2Dmj4&callback=myMap')
+                                  br
+                                  br
+                                  // The Modal
+                                  #myModal.modal.fade(style='padding-top:75px;')
+                                    .modal-dialog
+                                      .modal-content
+                                        // Modal body
+                                        .modal-body
+                                          img#modalImage(src='/perfume/img/shops/sarouja.jpg', style='width: 100%; box-shadow: 2px 2px 50px #aaaaaa; margin-bottom: 20px;')
+                                          p(style='font-size:18px')
+                                            i.fa.fa-phone(style='color: #B1372A; font-size:25px; margin-left: 10px; margin-right: 10px;')
+                                            span#modalPhone
+                                          p(style='font-size:18px')
+                                            i.fa.fa-map-marker(style='color: #B1372A; font-size:25px; margin-left: 10px; margin-right: 10px;')
+                                            span#modalAddress
+                                          p(style='font-size:18px')
+                                            i.glyphicon.glyphicon-time(style='color: #B1372A; font-size:25px; margin-left: 10px; margin-right: 10px;')
+                                            span#modalTime
+                                        // Modal footer
+                                        .modal-footer
+                                          button.btn.btn-secondary(type='button', data-dismiss='modal') إغلاق
+                                // Start portfolio Area
+                                #portfolio.portfolio-area.area-padding(style='margin-top: 20px;')
+                                  .container
+                                    .row
+                                      .col-lg-12.col-md-12.col-sm-12.col-xs-12
+                                        .section-headline.text-center
+                                          h2(style='color: #B1372A; font-family: titlesFont; margin-top: 25px;') وصل حديثاً
+                                          p
+                                            a#allCollectionLink.textFont(href='#', style='font-size: 20px;') جميع الأصناف
+                                    .row
+                                      // Start Portfolio -page
+                                      .awesome-project-1.fix
+                                        .col-lg-12.col-md-12.col-sm-12.col-xs-12
+                                          .awesome-menu
+                                            ul.project-menu
+                                              li
+                                                a.active(href='#', data-filter='*') الكل
+                                              li
+                                                a(href='#', data-filter='.development') رجالي
+                                              li
+                                                a(href='#', data-filter='.design') نسائي
+                                              //
+                                                <li>
+                                                <a href="#" data-filter=".photo">Photoshop</a>
+                                                </li>
+                                      .awesome-project-content
+                                        // single-awesome-project start
+                                        .col-md-4.col-sm-4.col-xs-12.development
+                                          .single-awesome-project
+                                            .awesome-img
+                                              a(href='#')
+                                                img(src='/perfume/img/portfolio/1.jpg', alt='')
+                                              .add-actions.text-center
+                                                .project-dec
+                                                  a.venobox(data-gall='myGallery', href='/perfume/img/portfolio/1.jpg')
+                                                    h4 SAUVAGE
+                                                    span Dior
+                                        // single-awesome-project end
+                                        // single-awesome-project start
+                                        .col-md-4.col-sm-4.col-xs-12.design
+                                          .single-awesome-project
+                                            .awesome-img
+                                              a(href='#')
+                                                img(src='/perfume/img/portfolio/2.jpg', alt='')
+                                              .add-actions.text-center
+                                                .project-dec
+                                                  a.venobox(data-gall='myGallery', href='/perfume/img/portfolio/2.jpg')
+                                                    h4 Miss Dior
+                                                    span Dior
+                                        // single-awesome-project end
+                                        // single-awesome-project start
+                                        .col-md-4.col-sm-4.col-xs-12.development
+                                          .single-awesome-project
+                                            .awesome-img
+                                              a(href='#')
+                                                img(src='/perfume/img/portfolio/3.jpg', alt='')
+                                              .add-actions.text-center
+                                                .project-dec
+                                                  a.venobox(data-gall='myGallery', href='/perfume/img/portfolio/3.jpg')
+                                                    h4 EAU FRAISH
+                                                    span Versace
+                                        // single-awesome-project end
+                                        // single-awesome-project start
+                                        .col-md-4.col-sm-4.col-xs-12.design
+                                          .single-awesome-project
+                                            .awesome-img
+                                              a(href='#')
+                                                img(src='/perfume/img/portfolio/4.jpg', alt='')
+                                              .add-actions.text-center
+                                                .project-dec
+                                                  a.venobox(data-gall='myGallery', href='/perfume/img/portfolio/4.jpg')
+                                                    h4 WHITE CREED
+                                                    span CREED
+                                        // single-awesome-project end
+                                        // single-awesome-project start
+                                        .col-md-4.col-sm-4.col-xs-12.development
+                                          .single-awesome-project
+                                            .awesome-img
+                                              a(href='#')
+                                                img(src='/perfume/img/portfolio/5.jpg', alt='')
+                                              .add-actions.text-center.text-center
+                                                .project-dec
+                                                  a.venobox(data-gall='myGallery', href='/perfume/img/portfolio/5.jpg')
+                                                    h4 AQVA
+                                                    span BVLGARI
+                                        // single-awesome-project end
+                                        // single-awesome-project start
+                                        .col-md-4.col-sm-4.col-xs-12.design
+                                          .single-awesome-project
+                                            .awesome-img
+                                              a(href='#')
+                                                img(src='/perfume/img/portfolio/6.jpg', alt='')
+                                              .add-actions.text-center
+                                                .project-dec
+                                                  a.venobox(data-gall='myGallery', href='/perfume/img/portfolio/6.jpg')
+                                                    h4 Especially
+                                                    span ESCADA
+                                        // single-awesome-project end
+                                        // awesome-portfolio end
+                                        // Start Testimonials
+                                        #offersArea.testimonials-area
+                                          .testi-inner.area-padding
+                                            .testi-overly
+                                            .container
+                                              .row
+                                                .col-md-12.col-sm-12.col-xs-12
+                                                  // Start testimonials Start
+                                                  .testimonial-content.text-center
+                                                    a.quate(href='#')
+                                                      i.fa.fa-quote-right
+                                                    // start testimonial carousel
+                                                    .testimonial-carousel
+                                                      .single-testi
+                                                        .testi-text
+                                                          p
+                                                            | .............
+                                                          h6 ...
+                                                      // End single item
+                                                      .single-testi
+                                                        .testi-text
+                                                          p
+                                                            | ................
+                                                          h6 ...
+                                                      // End single item
+                                                      .single-testi
+                                                        .testi-text
+                                                          p
+                                                            | .............
+                                                          h6 ...
+                                                      // End single item
+                                                      // End testimonials end
+                                                      // End Right Feature
+                                                      // End Testimonials
+                                                      // Start Footer bottom Area
+                                                      footer
+                                                        .footer-area-bottom
+                                                          .container
+                                                            .row
+                                                              .col-md-12.col-sm-12.col-xs-12
+                                                                .copyright.text-center
+                                                                  .footer-icons
+                                                                    //
+                                                                      <ul>
+                                                                      <li>
+                                                                      <a href=""><i class="fa fa-facebook"></i></a>
+                                                                      </li>
+                                                                      <li>
+                                                                      <a href=""><i class="fa fa-twitter"></i></a>
+                                                                      </li>
+                                                                      <li>
+                                                                      <a href=""><i class="fa fa-google"></i></a>
+                                                                      </li>
+                                                                      <li>
+                                                                      <a href=""><i class="fa fa-instagram"></i></a>
+                                                                      </li>
+                                                                      </ul>
+                                                                  p
+                                                                    | © 
+                                                                    strong العطر الشامي
+                                                                    |  جميع الحقوق محفوظة
+                                                                .credits
+                                                                  | Designed by 
+                                                                  a(href='https://www.facebook.com/Crazy.ITer/') Crazy ITer
+                                                      a.back-to-top(href='#')
+                                                        i.fa.fa-chevron-up
+                                                      // JavaScript Libraries
+                                                      script(src='/perfume/lib/jquery/jquery.min.js')
+                                                      script(src='/perfume/lib/bootstrap/js/bootstrap.min.js')
+                                                      script(src='/perfume/lib/owlcarousel/owl.carousel.min.js')
+                                                      script(src='/perfume/lib/venobox/venobox.min.js')
+                                                      script(src='/perfume/lib/knob/jquery.knob.js')
+                                                      script(src='/perfume/lib/wow/wow.min.js')
+                                                      script(src='/perfume/lib/parallax/parallax.js')
+                                                      script(src='/perfume/lib/easing/easing.min.js')
+                                                      script(src='/perfume/lib/nivo-slider/js/jquery.nivo.slider.js', type='text/javascript')
+                                                      script(src='/perfume/lib/appear/jquery.appear.js')
+                                                      script(src='/perfume/lib/isotope/isotope.pkgd.min.js')
+                                                      // <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8HeI8o-c1NppZA-92oYlXakhDPYR7XMY"></script>
+                                                      // Contact Form JavaScript File
+                                                      script(src='/perfume/contactform/contactform.js')
+                                                      script(src='/perfume/js/main.js')
